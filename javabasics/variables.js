@@ -27,3 +27,25 @@ const NOME_VARIAVEL;
 
 // In general, const is preferred.
 // Use let only when you know the value will need to change.
+
+// ===============================
+// let and const - complete syntax
+// ===============================
+
+// To fully write a variable in JavaScript, we use:
+// =  to assign a value
+// "" to represent a string
+// ;  to end the statement
+
+// Example using let
+let macaco = "banana";
+
+// The value of a let variable can be changed later
+macaco = "laranja";
+
+// Example using const
+const BANANAS_QUANTIDADE = 5;
+
+// A const variable cannot be reassigned
+// BANANAS_QUANTIDADE = 10; // ❌ This would cause an error
+
