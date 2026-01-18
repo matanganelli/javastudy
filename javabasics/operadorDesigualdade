@@ -1,0 +1,35 @@
+// Operador !== (desigualdade estrita)
+
+/*
+O operador === compara:
+1. O VALOR
+2. O TIPO
+
+Ele retorna true apenas se os dois forem iguais.
+*/
+
+// Exemplo com ===
+console.log(5 === 5);      // true
+console.log(5 === "5");    // false (número ≠ string)
+
+/*
+O operador !== é o INVERSO do ===.
+
+Ele verifica se:
+- o valor é diferente
+OU
+- o tipo é diferente
+
+Se qualquer um for diferente, o resultado é true.
+*/
+
+// Exemplo com !==
+console.log(5 !== 5);      // false (valor e tipo são iguais)
+console.log(5 !== "5");    // true (tipos diferentes)
+console.log(10 !== 5);     // true (valores diferentes)
+
+/*
+Resumo:
+===  → igualdade estrita (valor E tipo iguais)
+!==  → desigualdade estrita (valor OU tipo diferentes)
+*/
