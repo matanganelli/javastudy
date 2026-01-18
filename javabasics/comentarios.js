@@ -27,3 +27,30 @@ const linguagem = "JavaScript";
 // console.log(a + b);
 
 // Elas viram comentários e não são executadas
+
+// ===============================
+// COMENTÁRIOS DE VÁRIAS LINHAS
+// ===============================
+
+/*
+A sintaxe /* */ permite criar comentários
+que ocupam várias linhas no JavaScript.
+
+Tudo o que estiver entre
+/* e */
+é ignorado pelo interpretador.
+
+Esses comentários são úteis para:
+- Explicar blocos grandes de código
+- Escrever documentação
+- Desativar temporariamente trechos maiores
+*/
+
+const linguagem = "JavaScript";
+
+/*
+Este código cria uma variável chamada linguagem
+e armazena o valor "JavaScript".
+O programa continua funcionando normalmente,
+porque o comentário não é executado.
+*/
