@@ -1,0 +1,34 @@
+// OPERADORES < (menor que) e > (maior que)
+
+// Esses operadores servem para COMPARAR dois valores.
+// O resultado da comparação é sempre um boolean:
+// true (verdadeiro) ou false (falso)
+
+let a = 10;
+let b = 20;
+
+// Operador <
+// Verifica se o valor da esquerda é MENOR que o da direita
+console.log(a < b); 
+// true → porque 10 é menor que 20
+
+// Operador >
+// Verifica se o valor da esquerda é MAIOR que o da direita
+console.log(a > b); 
+// false → porque 10 não é maior que 20
+
+// Comparando números diretamente
+console.log(5 < 3);  
+// false
+
+console.log(8 > 2);  
+// true
+
+// Comparando variáveis
+let idadeMinima = 18;
+let idadePessoa = 16;
+
+console.log(idadePessoa < idadeMinima);
+// true → a pessoa ainda não tem a idade mínima
+
+// Esses operadores NÃO comparam tipos, apenas valores numéricos
