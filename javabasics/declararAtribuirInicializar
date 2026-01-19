@@ -1,0 +1,63 @@
+// ===============================================
+// DECLARAÇÃO, INICIALIZAÇÃO E ATRIBUIÇÃO EM JS
+// ===============================================
+
+// Esses são três conceitos DIFERENTES,
+// mas que muita gente confunde no começo.
+
+// -------------------------------
+// 1. DeclARAÇÃO
+// -------------------------------
+
+// Declarar uma variável é DAR UM NOME a ela.
+// Ainda não existe valor associado.
+
+let macaco;
+
+// Aqui:
+// 'macaco' é a variável declarada
+// Ela existe, mas vale undefined
+
+console.log(macaco); // undefined
+
+
+// -------------------------------
+// 2. ATRIBUIÇÃO
+// -------------------------------
+
+// Atribuição é COLOCAR um valor em uma variável.
+// O operador de atribuição é o =
+
+macaco = "bugio";
+
+// Aqui:
+// 'bugio' é o valor
+// '=' é o operador de atribuição
+// Isso é uma ATRIBUIÇÃO
+
+console.log(macaco); // "bugio"
+
+
+// -------------------------------
+// 3. INICIALIZAÇÃO
+// -------------------------------
+
+// Inicialização acontece quando a variável
+// recebe um valor NO MOMENTO da declaração.
+
+let animal = "chimpanzé";
+
+// Aqui:
+// - 'animal' foi declarado
+// - 'chimpanzé' foi atribuído
+// - tudo na mesma linha
+// Isso é uma INICIALIZAÇÃO
+
+
+// -------------------------------
+// RESUMO MENTAL SIMPLES
+// -------------------------------
+
+// DECLARAR   → dar um nome
+// ATRIBUIR   → colocar um valor
+// INICIALIZAR → declarar + atribuir juntos
