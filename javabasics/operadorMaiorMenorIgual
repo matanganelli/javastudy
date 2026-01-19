@@ -1,0 +1,53 @@
+// ===============================
+// OPERADORES >=  E  <=
+// ===============================
+
+// >=  significa: MAIOR OU IGUAL
+// <=  significa: MENOR OU IGUAL
+
+// -------------------------------
+// EXEMPLOS COM NÚMEROS
+// -------------------------------
+
+let a = 10;
+let b = 5;
+
+console.log(a >= b); 
+// true → 10 é maior que 5
+
+console.log(b >= 5); 
+// true → 5 é igual a 5
+
+console.log(3 >= 5); 
+// false → 3 não é maior nem igual a 5
+
+
+console.log(3 <= 5); 
+// true → 3 é menor que 5
+
+console.log(5 <= 5); 
+// true → 5 é igual a 5
+
+console.log(7 <= 5); 
+// false → 7 não é menor nem igual a 5
+
+
+// -------------------------------
+// EXEMPLO PRÁTICO (IDADE)
+// -------------------------------
+
+let idade = 18;
+
+// Verifica se pode entrar (18 ou mais)
+if (idade >= 18) {
+  console.log("Pode entrar");
+} else {
+  console.log("Não pode entrar");
+}
+
+// -------------------------------
+// RESUMO
+// -------------------------------
+
+// >=  pergunta: é maior OU igual?
+// <=  pergunta: é menor OU igual?
