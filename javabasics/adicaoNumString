@@ -1,0 +1,28 @@
+// =======================================
+// ADIÇÃO DE NÚMEROS E STRINGS EM JAVASCRIPT
+// =======================================
+//
+// O operador + pode se comportar de duas formas:
+// - Somar números
+// - Juntar textos (strings)
+//
+// Tudo depende se o valor tem aspas ou não.
+
+// STRING (texto)
+console.log("10" + "10");
+// resultado: "1010" → junta texto
+
+// NÚMERO
+console.log(10 + 10);
+// resultado: 20 → soma
+
+// MISTURADO
+console.log("10" + 10);
+// resultado: "1010"
+
+console.log(10 + "10");
+// resultado: "1010"
+
+// REGRA SIMPLES
+// Com aspas → texto → junta
+// Sem aspas → número → soma
