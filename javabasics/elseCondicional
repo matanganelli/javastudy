@@ -1,0 +1,46 @@
+// CONDICIONAL ELSE - JavaScript
+
+// Definição: else executa quando if é false
+
+// Sintaxe
+if (condição) {
+    // true
+} else {
+    // false
+}
+
+// Exemplo 1: Verificar maioridade
+let idade = 16;
+if (idade >= 18) {
+    console.log("Maior de idade");
+} else {
+    console.log("Menor de idade"); // executa
+}
+
+// Exemplo 2: Par ou ímpar
+let num = 7;
+if (num % 2 === 0) {
+    console.log("Par");
+} else {
+    console.log("Ímpar"); // executa
+}
+
+// Exemplo 3: Login
+let senha = "abc";
+if (senha === "123") {
+    console.log("Acesso permitido");
+} else {
+    console.log("Acesso negado"); // executa
+}
+
+// else if: múltiplas condições
+let nota = 7;
+if (nota >= 9) {
+    console.log("A");
+} else if (nota >= 7) {
+    console.log("B"); // executa
+} else {
+    console.log("C");
+}
+
+// Fluxo: if (true) → executa if | if (false) → executa else
